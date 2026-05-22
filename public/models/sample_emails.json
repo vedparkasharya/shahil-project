@@ -1,0 +1,16 @@
+{
+  "spam": [
+    "Congratulations! You've won a $1,000 gift card. Claim your prize now by clicking the link below. Limited time offer!",
+    "URGENT: You have been selected for a cash reward of $5,000,000. Contact us immediately to claim your winnings.",
+    "Free entry to win a brand new iPhone 15! Text WIN to 12345 now. Winner will be announced tomorrow!",
+    "Act now! Buy cheap viagra pills online. 80% discount for limited time. Order today!",
+    "You have 1 new voicemail. Call 09061749601 to hear it. Only \u00a31/min. Call now!"
+  ],
+  "ham": [
+    "Hey, are we still on for lunch tomorrow? Let me know what time works for you.",
+    "Thanks for the update on the project. I'll review the documents and get back to you by Friday.",
+    "Can you pick up some groceries on your way home? We need milk, eggs, and bread.",
+    "Happy birthday! Hope you have a wonderful day filled with joy and celebration.",
+    "Meeting rescheduled to 3 PM in Conference Room B. Please confirm your availability."
+  ]
+}
