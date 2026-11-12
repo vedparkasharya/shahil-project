@@ -9,18 +9,30 @@
         android:supportsRtl="true">
         <activity
             android:name=".MainActivity"
+            android:label="Lite PDF Viewer"
             android:exported="true"
             android:configChanges="orientation|screenSize|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
+            <!-- Register as a PDF viewer in Android's Open with resolver. -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:mimeType="application/pdf"/>
+                <data android:mimeType="application/x-pdf"/>
             </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+
             <intent-filter>
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
